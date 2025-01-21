@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vista principal estudiante.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>NEXUS 1.0</title>
+    <!-- Firebase App (necesario para todos los servicios de Firebase) -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- Firebase Auth (para autenticación de usuarios) -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+    <!-- Firebase Storage (para almacenar archivos) -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <div class="secion-perfil">
+        <img id="profile-pic" src="https://via.placeholder.com/150" alt="Foto de perfil" class="profile-pic">
+    </div>
+
+
+
+    <h3>
+        <span class="bienvenido">BIENVENIDO A NEXUS</span>
+        <span class="textoespecial">estudiante</span>
+    </h3>
+    
+  </header>
+  <main class="dashboard">
+    <section class="welcome">
+      <h2>Hola, [Nombre del Usuario]</h2>
+      <p>Esta es tu vista principal. Explora tus cursos y consulta tus notas fácilmente.</p>
+    </section>
+    
+    <section class="quick-access">
+        <h2>Accesos Rápidos</h2>
+        <div class="access-buttons">
+            <button id="activities-button">Actividades</button>
+<div id="activities-list" class="hidden">
+  <ul>
+    <li><a href="actividades.html">Actividades Pendientes</a></li>
+    <li><a href="actividades.html">Actividades en Curso</a></li>
+    <li><a href="actividades.html">Actividades Completadas</a></li>
+    </ul>
+</div>
+
+    <li>Actividad 2: Ejercicios de Bucles</li>
+    
+    <li>Actividad 3: Proyecto de Programación</li>
+  </ul>
+</div>
+
+
+          <a href="#" class="button">Buscar Nuevos Cursos</a>
+          <a href="#" class="button">Revisar Notas</a>
+        </div>
+      </section>
+      
+      <footer class="main-footer">
+        <p>&copy; 2025 NEXUS. Todos los derechos reservados.</p>
+      </footer>
+       
+    </div>
+
+    <nav class="barralado">
+        <ul>
+            <div>
+                <div class="nombre-pagina">
+                    <ion-icon id="cloud" name="cloud-outline" role="img" class="md hydrated"
+                        aria-label="cloud outline"></ion-icon>
+                    <span>NEXUS</span>
+                </div>
+                <button class="boton">
+                    <li><a id="inbox" href="vista principal estudiante.html">
+                        <ion-icon name="home-outline" role="img" class="md hydrated" aria-label="home outline"></ion-icon>
+                        <span>INICIO</span></a></li>    
+                    
+                </button>
+            </div>
+            <div>
+
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="buscar cursos.html"><ion-icon name="mail-unread-outline"
+                                    class="md hydrated" aria-label="mail unread outline"></ion-icon><span>Buscar
+                                    cursos</span></a></li>
+
+                        <li><a href="mi aula.html"><ion-icon name="paper-plane-outline" role="img" class="md hydrated"
+                                    aria-label="paper plane outline"></ion-icon><span>Mi aula</span></a></li>
+                        <li><a href="actividades.html"><ion-icon name="document-text-outline" role="img"
+                                    class="md hydrated"
+                                    aria-label="document text outline"></ion-icon><span>Actividades</span></a>
+                        </li>
+
+                        <li><a href="spam.html"><ion-icon name="alert-circle-outline" role="img" class="md hydrated"
+                                    aria-label="alert circle outline"></ion-icon><span>Spam</span></a></li>
+
+                        <li><a href="configuracion.html"><ion-icon name="star-outline" role="img" class="md hydrated"
+                                    aria-label="star outline"></ion-icon><span>Configuracion</span></a></li>
+                    </ul>
+                </nav>
+                    <link rel="stylesheet" href="boton claro y oscuro.css">
+                    <div class="switch">
+                        <div class="base">
+                            <div class="circulo"></div>
+                            <div class="theme-toggle">
+                                <input type="checkbox" id="toggle-theme" />
+                                <label for="toggle-theme" class="toggle-label">
+                                  <span class="sun"></span>
+                                  <span class="moon">oscuro</span>
+                                  <div class="toggle-ball"></div>
+                                </label>
+                              </div>
+                            </main>   
+
+                            <script src="vista principal estudiante.js"></script> 
+                            <script src="boton claro y oscuro.js"></script> 
+                        </div> 
+
+</body>
