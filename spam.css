@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .spam-header {
+    background-color: #e53935;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .spam-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .spam-header p {
+    font-size: 1rem;
+  }
+  
+  /* Contenedor principal */
+  .spam-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .spam-warning {
+    background-color: #ffcccb;
+    color: #d32f2f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  /* Lista de mensajes */
+  .spam-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .spam-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spam-card h3 {
+    font-size: 1.2rem;
+    color: #d32f2f;
+    margin-bottom: 10px;
+  }
+  
+  .spam-card p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  button.mark-safe {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  button.mark-safe:hover {
+    background-color: #388e3c;
+  }
+  
+  button.delete {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  button.delete:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Footer */
+  .spam-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  

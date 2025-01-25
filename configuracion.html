@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuración</title>
+  <link rel="stylesheet" href="configuracion.css">
+</head>
+<body>
+  <header class="config-header">
+    <h1>Configuración</h1>
+    <p>Personaliza tu experiencia en la plataforma.</p>
+  </header>
+
+  <main class="config-container">
+    <!-- Sección de ajustes de cuenta -->
+    <section class="config-section">
+      <h2>Cuenta</h2>
+      <div class="config-item">
+        <label for="username">Nombre de usuario</label>
+        <input type="text" id="username" placeholder="Usuario123">
+      </div>
+      <div class="config-item">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" placeholder="correo@ejemplo.com">
+      </div>
+      <button class="save-button">Guardar cambios</button>
+    </section>
+
+    <!-- Sección de notificaciones -->
+    <section class="config-section">
+      <h2>Notificaciones</h2>
+      <div class="config-item">
+        <label for="email-notifications">Notificaciones por correo</label>
+        <input type="checkbox" id="email-notifications" checked>
+      </div>
+      <div class="config-item">
+        <label for="sms-notifications">Notificaciones por SMS</label>
+        <input type="checkbox" id="sms-notifications">
+      </div>
+      <button class="save-button">Guardar cambios</button>
+    </section>
+
+    <!-- Sección de privacidad -->
+    <section class="config-section">
+      <h2>Privacidad</h2>
+      <div class="config-item">
+        <label for="profile-visibility">Visibilidad del perfil</label>
+        <select id="profile-visibility">
+          <option value="public">Público</option>
+          <option value="private">Privado</option>
+          <option value="friends-only">Solo amigos</option>
+        </select>
+      </div>
+      <div class="config-item">
+        <label for="data-sharing">Compartir datos con terceros</label>
+        <input type="checkbox" id="data-sharing">
+      </div>
+      <button class="save-button">Guardar cambios</button>
+    </section>
+  </main>
+
+  <footer class="config-footer">
+    <p>&copy; 2025 Plataforma de Configuración. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

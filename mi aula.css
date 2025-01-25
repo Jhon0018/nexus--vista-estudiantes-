@@ -1,0 +1,160 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header del aula */
+  .class-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .course-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .course-info h1 {
+    font-size: 2rem;
+  }
+  
+  .course-info p {
+    margin: 5px 0;
+  }
+  
+  .class-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .class-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .class-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contenido principal */
+  .class-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Recursos */
+  .resources {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .resource-card {
+    flex: 1 1 calc(50% - 20px);
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .resource-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .resource-card .button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .resource-card .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Videoclases */
+  .videoclasses {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video-card {
+    flex: 1 1 calc(50% - 20px);
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .video-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .video-card .button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .video-card .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .class-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  

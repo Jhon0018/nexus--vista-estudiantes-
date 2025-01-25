@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Cursos</title>
+  <link rel="stylesheet" href="buscar cursos.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Plataforma de Notas</h1>
+    <p>Busca y gestiona tus cursos fácilmente</p>
+  </header>
+
+  <main class="search-container">
+    <section class="search-bar">
+      <input type="text" placeholder="Buscar cursos por nombre, código o profesor..." id="search-input">
+      <button id="search-button">Buscar</button>
+    </section>
+    
+    <div class="course-card" data-semester="2025-1" data-level="basico">
+      <h3>Introducción a Programación</h3>
+      <p><strong>Código:</strong> INF101</p>
+      <p><strong>Profesor:</strong> Juan Pérez</p>
+      <button>Ver detalles</button>
+    </div>
+      
+    <div class="course-card" data-semester="2025-2" data-level="avanzado">
+      <h3>Matemáticas Avanzadas</h3>
+      <p><strong>Código:</strong> MAT202</p>
+      <p><strong>Profesor:</strong> María Gómez</p>
+      <button>Ver detalles</button>
+    </div>
+      
+    <section class="filters">
+      <h2>Filtros</h2>
+      <div class="filter-options">
+        <label>
+          Semestre:
+          <select>
+            <option value="todos">Todos</option>
+            <option value="2025-1">2025-1</option>
+            <option value="2025-2">2025-2</option>
+          </select>
+        </label>
+
+        <label>
+          Nivel:
+          <select>
+            <option value="todos">Todos</option>
+            <option value="basico">Básico</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="results">
+      <h2>Resultados</h2>
+      <div class="course-card">
+        <h3>Introducción a Programación</h3>
+        <p><strong>Código:</strong> INF101</p>
+        <p><strong>Profesor:</strong> Juan Pérez</p>
+        <button>Ver detalles</button>
+      </div>
+      <div class="course-card">
+        <h3>Matemáticas Avanzadas</h3>
+        <p><strong>Código:</strong> MAT202</p>
+        <p><strong>Profesor:</strong> María Gómez</p>
+        <button>Ver detalles</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal para detalles del curso -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal" class="close-button">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-details"></p>
+    </div>
+  </div>
+
+
+  <script src="buscar cursos.js"></script>
+</body>
+</html>
